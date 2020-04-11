@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background: #fff;
+    font-family: 'Dosis', 'sans-serif';
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 2;
+}
+
+.fond {
+    background: url(img/fond1.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+}
+
+// Navbar
+
+.navbar {
+    padding: 0rem 1rem;
+}
+
+.navbar-dark .navbar-toggler {
+    margin: 8px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+// Theme colors
+
+.bg-light {
+    background: #083b66  !important
+}
+
+.bg-dark {
+    background: #cf1617  !important;
+}
+
+.btn {
+    border: 1px solid grey;
+}
+
+a .btn .btn-light {
+    border: 1px solid grey;
+}
+
+.imgRecaptcha {
+    width: 250px;
+}
